@@ -1,0 +1,16 @@
+name: Publish to Packagist
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Notify Packagist
+        uses: devdrjohndoe/packagist-update@v1
+        with:
+          username: ${{ secrets.PACKAGIST_USERNAME }}
+          token: ${{ secrets.PACKAGIST_TOKEN }}
+          package: "milderware/stack"

@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Middleware\\": "src/"
+            "Amazing79\\Middleware\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Middleware\\Tests\\": "tests/"
+            "Amazing79\\Middleware\\Tests\\": "tests/"
         }
     },
   "scripts": {

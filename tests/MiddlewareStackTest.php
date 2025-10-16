@@ -1,11 +1,11 @@
 <?php
-namespace Middleware\Tests;
+namespace Amazing79\Middleware\Tests;
 
-use Middleware\Middleware\BeforeExampleMiddleware;
+use Amazing79\Middleware\Middleware\BeforeExampleMiddleware;
 use PHPUnit\Framework\TestCase;
-use Middleware\MiddlewareStack;
-use Middleware\Middleware\AfterExampleMiddleware;
-use Middleware\Handler\ExampleMainHandler;
+use Amazing79\Middleware\MiddlewareStack;
+use Amazing79\Middleware\Middleware\AfterExampleMiddleware;
+use Amazing79\Middleware\Handler\ExampleMainHandler;
 use GuzzleHttp\Psr7\ServerRequest;
 
 class MiddlewareStackTest extends TestCase

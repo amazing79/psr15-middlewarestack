@@ -1,13 +1,13 @@
 # Middleware Stack
 Librería PSR-15 para construir cadenas de middlewares en PHP.
 
-![Build](https://github.com/amazing79/simplex/actions/workflows/tests.yml/badge.svg)
-[![Latest Stable Version](https://img.shields.io/packagist/v/milderware/stack.svg)](https://packagist.org/packages/amazing79/simplex)
+![Build](https://github.com/amazing79/psr15-middlewarestack/actions/workflows/tests.yml/badge.svg)
+[![Latest Stable Version](https://img.shields.io/packagist/v/psr15-middlewarestack/stack.svg)](https://packagist.org/packages/amazing79/psr15-middlewarestack)
 
 ## 🚀 Instalación
 
 ```bash
-composer require milderware/stack
+composer require amazing79/psr15-middlewarestack
 ```
 
 ## 🧱 Uso

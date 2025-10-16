@@ -1,5 +1,5 @@
 <?php
-namespace Middleware;
+namespace Amazing79\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
