@@ -19,4 +19,4 @@ jobs:
           tools: composer:v2
       - run: composer validate --strict
       - run: composer install --prefer-dist --no-progress --no-suggest
-      - run: vendor/bin/phpunit --no-coverage --colors=always
+      - run: composer tests --no-coverage --colors=always

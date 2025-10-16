@@ -11,6 +11,6 @@ jobs:
       - name: Notify Packagist
         uses: devdrjohndoe/packagist-update@v1
         with:
-          username: ${{ secrets.PACKAGIST_USERNAME }}
-          token: ${{ secrets.PACKAGIST_TOKEN }}
-          package: "milderware/stack"
+          username: ${{ secrets.amazing79}}
+          token: ${{ secrets.63c0f069669ea686ca1dc001b32651dbd7b00278 }}
+          package: "amazing79/middleware-stack"
