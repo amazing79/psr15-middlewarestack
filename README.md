@@ -9,7 +9,7 @@ Esta libreria se realizó siguiendo la especificacion PSR-15. Está a su vez, re
 El modo de proceso de los middlewares es LIFO (Last In First Out), por lo cual el último en agregarse, será el primero en ejecutarse.
 
 
-![Build](https://github.com/amazing79/psr15-middlewarestack/actions/workflows/tests.yml/badge.svg)
+![Build](https://github.com/amazing79/psr15-middlewarestack/actions/workflows/phptests.yml/badge.svg)
 [![Latest Stable Version](https://img.shields.io/packagist/v/amazing79/middleware-stack)](https://packagist.org/packages/amazing79/middleware-stack)
 
 ## 🚀 Instalación
