@@ -30,7 +30,7 @@
         }
     },
   "scripts": {
-    "tests": "phpunit"
+    "tests": "vendor/bin/phpunit"
   },
     "minimum-stability": "stable",
     "prefer-stable": true
