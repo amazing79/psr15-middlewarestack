@@ -21,13 +21,15 @@ composer require amazing79/middleware-stack
 ## 🧱 Uso
 
 ```php
-use Milderware\Middleware\ExampleMiddleware;
-use Milderware\Handler\ExampleHandler;
-use Milderware\MiddlewareStack;
+use Amazing79\Middleware\Middleware\BeforeExampleMiddleware;
+use Amazing79\Middleware\MiddlewareStack;
+use Amazing79\Middleware\Middleware\AfterExampleMiddleware;
+use Amazing79\Middleware\Handler\ExampleMainHandler;
 use GuzzleHttp\Psr7\ServerRequest;
 
-$stack = new MiddlewareStack(new ExampleHandler());
-$stack->add(new ExampleMiddleware());
+$stack = new MiddlewareStack(new ExampleMainHandler());
+$stack->add(new AfterExampleMiddleware());
+$stack->add(new BeforeExampleMiddleware());
 $request = new ServerRequest('GET', '/');
 $response = $stack->handle($request);
 echo (string) $response->getBody();
