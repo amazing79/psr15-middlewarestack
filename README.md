@@ -12,7 +12,7 @@ El modo de proceso de los middlewares es LIFO (Last In Firts Out), por lo cual e
 Podemos ver un ejemplo en los tests provistos.
 
 ![Build](https://github.com/amazing79/psr15-middlewarestack/actions/workflows/tests.yml/badge.svg)
-[![Latest Stable Version](https://img.shields.io/packagist/v/psr15-middlewarestack/stack.svg)](https://packagist.org/packages/amazing79/psr15-middlewarestack)
+[![Latest Stable Version](https://img.shields.io/packagist/v/middleware-stack/stack.svg)](https://packagist.org/packages/amazing79/middleware-stack)
 
 ## 🚀 Instalación
 
