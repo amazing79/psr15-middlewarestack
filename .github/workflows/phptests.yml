@@ -1,4 +1,4 @@
-name: Run phpunits test on updates
+name: Run test
 
 on:
   push:
